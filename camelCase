@@ -1,0 +1,8 @@
+s1= str(input("Enter a words: "))
+
+# Split the camel_case string into a list of words
+s2 = s1.split()
+
+# Capitalize each word after the first and join them back together
+res = s2[0].lower() + ''.join(word.capitalize() for word in s2[1:])
+print(res)
