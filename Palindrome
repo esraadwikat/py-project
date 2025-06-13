@@ -1,0 +1,10 @@
+s =str(input("Enter a words: ")) # string
+rev = ""  # to store the reversed string
+
+for char in s:
+    rev = char + rev
+
+if s == rev:
+    print("Yes")
+else:
+    print("No")
